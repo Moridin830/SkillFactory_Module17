@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task1.AccountTypes
+namespace Task1
 {
     public class BasicTypeUnder5000:BasicType
     {

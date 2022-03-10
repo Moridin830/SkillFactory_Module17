@@ -17,9 +17,11 @@ namespace Task1
         // процентная ставка
         public double Interest { get; set; }
 
-        public Account(AccountType type)
+        public Account(AccountType type, double balance)
         {
             Type = type;
+            Balance = balance;
+            Type.CalculateInterest(this);
         }
     }
 }
